@@ -1,0 +1,53 @@
+.root{
+    -fx-font-size: 18;
+}
+
+#calculadora{
+    -fx-alignment: center-right;
+    -fx-background-color: white;
+
+}
+
+.cabecera{
+    -fx-alignment: center-right;
+}
+
+.hbox{
+    -fx-alignment: center;
+}
+
+#display{
+    -fx-font-family: monospace;
+    -fx-alignment: bottom-right;
+    -fx-padding: 20 5 5 5;
+    -fx-font-size: 40;
+    -fx-text-fill: #4F4D4E;
+}
+
+.button{
+    -fx-pref-width: 60;
+    -fx-pref-height: 50;
+    -fx-background-color: #343BA6;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: #343BA6;
+    /* -fx-border-width: 0.5; */
+    -fx-text-fill: white;
+}
+
+.button.salir{
+    -fx-font-size: 15;
+    -fx-text-fill: #F44336;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.button.zero{
+    -fx-pref-width: 180;
+    -fx-alignment: center-left;
+    -fx-padding: 0 25;
+}
+
+.button.equals{
+    -fx-background-color: #F92562;
+}

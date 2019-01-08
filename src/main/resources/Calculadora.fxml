@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="calculadora" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+
+
+    <HBox styleClass="cabecera">
+        <Button text="X" fx:id="btnExit" styleClass="salir"/>
+    </HBox>
+
+    <Label id="display" fx:id="display" />
+
+    <HBox>
+        <Button text="C" />
+        <Button text="+/-" />
+        <Button text="\%" />
+        <Button styleClass="op" text="/" />
+    </HBox>
+
+    <HBox>
+        <Button text="7" />
+        <Button text="8" />
+        <Button text="9" />
+        <Button styleClass="op" text="x" />
+    </HBox>
+
+    <HBox>
+        <Button text="4" />
+        <Button text="5" />
+        <Button text="6" />
+        <Button styleClass="op" text="-" />
+    </HBox>
+
+    <HBox>
+        <Button text="1" />
+        <Button text="2" />
+        <Button text="3" />
+        <Button styleClass="op" text="+" />
+    </HBox>
+
+    <HBox>
+        <Button styleClass="zero" text="0" />
+        <Button styleClass="equals" text="=" />
+    </HBox>
+
+</VBox>
